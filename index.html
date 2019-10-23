@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron heading">
+        <h1>Form Letter</h1>
+        <p>Input your Information</p>
+      </div>
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <button type="submit" name="button" class="btn btn-info">Submit</button>
+      </form>
+      <div class="card preview">
+        <div class="card-body">
+          <h4 class="card-header text-center">Preview</h4>
+          <p class="card-text p-5 ">
+            Hello <span id="fullname"></span>,<br><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, <span id="firstname"></span>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br><br>
+            Sincerely,<br><br>
+            Letter Writer
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
